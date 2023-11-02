@@ -1,0 +1,1 @@
+To start first you need to npm install and then npm start
