@@ -44,7 +44,7 @@ class GameBoard {
   // Can have an arrow function here cause of this binding
   objectExist(pos, object) {
     return this.grid[pos].classList.contains(object);
-  };
+  }
 
   rotateDiv(pos, deg) {
     this.grid[pos].style.transform = `rotate(${deg}deg)`;
